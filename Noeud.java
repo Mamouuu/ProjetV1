@@ -15,6 +15,8 @@ public class Noeud {
     protected double py;
     protected Vecteur2D force;
     protected Noeud noeud;
+    protected Barre[] barresDepart;
+    protected Barre[] barresArrivee;
     
     
     public int getIdentificateur(){
